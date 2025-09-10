@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package eva1_14_factorial;
+
+/**
+ *
+ * @author sanch
+ */
+public class Eva1_14_factorial {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("Factorial de 5= " + factorial(5));
+    }
+    public static int factorial(int val){
+        if(val == 0)
+            return 1;
+        else
+            return val * factorial(val - 1);
+        
+    }
+}
